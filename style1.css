@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(57, 64, 90, 0.705), rgba(54, 54, 75, 0.637)), url(images/gehu.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.header .btn {
+    text-decoration: none;
+    text-decoration-line: none;
+    display: block;
+    position: absolute;
+    text-decoration-line: none;
+    text-decoration: none;
+    top: 50%;
+    left: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.466);
+    width: 25%;
+    font-size: 200%;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header .btn2 {
+    text-decoration: none;
+    display: block;
+    text-decoration-line: none;
+    position: absolute;
+    text-decoration-line: none;
+    text-decoration: none;
+    font-display: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.466);
+    width: 26%;
+    height: 43px;
+    font-size: 200%;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header .btn:hover,
+.btn2:hover {
+    background-color: whitesmoke;
+}
+
+.tab td:hover {
+    background-color: darkgrey;
+}
+
+.tab td {
+    text-decoration-line: none;
+    text-decoration: none;
+    border: 20px solid rgb(71, 73, 226);
+    padding: 50px;
+    font-size: 250%;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tab {
+    text-decoration-line: none;
+    text-decoration: none;
+    width: 75%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.banner {
+    float: left;
+    background: #E7E9EB;
+    padding: 3px 10px 3px 20px;
+    position: relative;
+    margin: 0 5px 0 0;
+    text-decoration: none;
+    color: #555;
+}
+
+
+}
